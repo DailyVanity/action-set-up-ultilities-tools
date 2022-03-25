@@ -10,7 +10,7 @@ inputs:
 runs:
   using: "composite"
   steps:
-      id: setup_dv_utility
+    - id: setup_dv_utility
       run: ${{ github.action_path }}/setup-utility-action.sh
       shell: bash
 
